@@ -1,0 +1,21 @@
+nohup: ignoring input
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-06T14:03:52.833Z  INFO 4997 --- [loggingsystem] [           main] c.e.l.LoggingsystemApplication           : Starting LoggingsystemApplication v0.0.1-SNAPSHOT using Java 21.0.12.1 with PID 4997 (/home/ec2-user/aws-async/loggingsystem/target/loggingsystem-0.0.1-SNAPSHOT.jar started by ec2-user in /home/ec2-user/aws-async/loggingsystem)
+2026-10-06T14:03:52.847Z  INFO 4997 --- [loggingsystem] [           main] c.e.l.LoggingsystemApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-10-06T14:03:54.946Z  INFO 4997 --- [loggingsystem] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-06T14:03:54.972Z  INFO 4997 --- [loggingsystem] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-06T14:03:54.973Z  INFO 4997 --- [loggingsystem] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-06T14:03:55.017Z  INFO 4997 --- [loggingsystem] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2009 ms
+2026-10-06T14:03:56.277Z  INFO 4997 --- [loggingsystem] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-06T14:03:56.284Z  INFO 4997 --- [loggingsystem] [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-10-06T14:03:56.367Z  INFO 4997 --- [loggingsystem] [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6dc9da2d:0/SimpleConnection@1d15c0a1 [delegate=amqp://guest@127.0.0.1:5672/, localPort=59448]
+2026-10-06T14:03:56.463Z  INFO 4997 --- [loggingsystem] [           main] c.e.l.LoggingsystemApplication           : Started LoggingsystemApplication in 4.622 seconds (process running for 5.591)
